@@ -1,23 +1,23 @@
-# Short Url
+# PyShorText
 Python 3 library
 # Description
-Short your url or text, author : RayServer
+PyShorText your url or text, author : RayServer
 # Features 1.0.0
 # Quickstart & Installation
-Short Url requires an installation of Python 3.6 or greater, as well as pip. (Pip is typically bundled with Python 
+PyShorText requires an installation of Python 3.6 or greater, as well as pip. (Pip is typically bundled with Python 
 To install from the source with pip:
 ```
-pip install shorturl
+pip install pyshortext
 ```
 - Using Short Url in a Python script
 ```
-import shorturl
+import pyshortext
 
 
 text = "My Text or My URL"
-url_acortada = shorturl.short(text)
+url_acortada = pyshortext.short(text)
 print(url_acortada)
 
-url_desacortada = short.unshort(url_desacortada)
+url_desacortada = pyshortext.unshort(url_desacortada)
 print(url_desacortada)
 ```
